@@ -24,6 +24,16 @@
     var user = [[${user}]];
 </script>
 
+자바스크립트 인라인 사용 후
+<script>
+    var username = "userA";
+    var age = 10;
+    //자바스크립트 내추럴 템플릿
+    var username2 = "userA";
+    //객체
+    var user = {"username":"userA","age":10};
+</script>
+
 <!-- 자바스크립트 인라인 each -->
 <script th:inline="javascript">
     [# th:each="user, stat : ${users}"]
